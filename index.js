@@ -5,7 +5,7 @@ var port =3000;
 
 app.use(express.json());
 //app.use(express.static(__dirname+'/views'));
-app.use(express.static(__dirname+'/views'));
+//app.use(express.static(__dirname+'/views'));
 
 
 var userdata = [{
