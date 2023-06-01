@@ -1,6 +1,7 @@
 var express = require ('express');
 var app = express();
 var path = require ('path');
+var port =3000;
 
 app.use(express.json());
 //app.use(express.static(__dirname+'/views'));
@@ -65,4 +66,4 @@ app.post('/api/userdata', (req,res)=>{
 app.get('/api/html', (req,res)=>{
 res.sendFile(path.join(__dirname,'views','index.html'));
 });
-app.listen(3000);
+app.listen(process.env.PORT || port);
