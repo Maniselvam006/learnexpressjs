@@ -37,7 +37,7 @@ app.get('/api/fetch', (req,res)=>{
     //let data = userdata.filter((val)=> val.id === req.params.id);
         res.send(`<html>
         <body>
-        <iframe allowfullscreen width="100%" height="100%" src="https://freeflix-api.vercel.app/jijoi895?client=223"> 
+        <iframe allowfullscreen width="100%" height="100%" src="https://w3schools"> 
         </iframe>
         </body>
         </html>`);
